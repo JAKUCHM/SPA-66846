@@ -1,0 +1,84 @@
+/* Resetowanie domyślnych marginesów i paddingów */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styl nagłówka */
+header {
+    background-color: #002AAA;
+    color: #aff;
+    text-align: center;
+    padding: 10px;
+	font-family: "Arial", sans-serif;
+}
+
+/* Główna treść strony - wykorzystanie Flexbox */
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Lewy sektor - Produkty */
+.left-section {
+    flex: 1;
+}
+
+/* Prawy sektor - Koszyk */
+.right-section {
+    flex: 1;
+}
+
+/* Lista produktów */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Produkt */
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Styl koszyka */
+.cart-sidebar {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+/* Nagłówek koszyka */
+.cart-header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Lista produktów w koszyku */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Produkt w koszyku */
+li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Stopka strony */
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
